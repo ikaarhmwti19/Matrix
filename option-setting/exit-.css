@@ -1,0 +1,14 @@
+body {
+  background-color: #475e66;
+  font-family: 'Jolly Lodger';
+  color: #ffffff;
+}
+
+.row {
+  margin-left: 20rem;
+}
+
+.btn {
+  font-size: 50px;
+  color: #ffffff;
+}

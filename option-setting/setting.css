@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #475e66; /* Dark background color */
+  font-family: 'Jolly Lodger';
+}
+
+.settings-container {
+  width: 300px; /* Adjust as needed */
+  padding: 10px;
+  background-color: #d3d3d3; /* Light gray background */
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.settings-title {
+  position: absolute;
+  top: -75px; /* Adjust as needed for desired overlap */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #475e66; /* Same color as the container to blend */
+  padding: 0 10px; /* Add padding to match container color */
+  font-size: 60px;
+  font-family: 'Jolly Lodger'; /* Adjust as needed */
+  color: #ffffff; /* Text color */
+  background: linear-gradient(180deg, #ffffff, #999999); /* Adjust colors and angle */
+  -webkit-background-clip: text; /* Ensures compatibility with WebKit browsers */
+  -moz-background-clip: text; /* Ensures compatibility with Firefox */
+  background-clip: text;
+  color: transparent;
+}
+
+.settings-content {
+  margin-top: 40px; /* Add space below the title */
+}
+
+/* Settings container */
+.settings-container {
+  position: relative;
+  background-color: #d9d9d9; /* Light background for the settings box */
+  border-radius: 20px;
+  padding: 40px 40px 20px; /* Add extra padding at the top */
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Volume controls */
+.volume-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.volume-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.volume-slider {
+  flex-grow: 1;
+  height: 8px;
+  background-color: #999999;
+  border-radius: 5px;
+  appearance: none;
+}
+
+/* Home button */
+.home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9a9a9;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.home-button .home-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.home-name {
+  color: #ffffff;
+}

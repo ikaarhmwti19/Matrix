@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: #475e66;
+  font-family: 'Jolly Lodger';
+}
+
+.head {
+  font-family: 'Jolly Lodger';
+  font-weight: 400;
+  font-size: 65px;
+  line-height: normal;
+  background: linear-gradient(180deg, #ffffff, #999999); /* Adjust colors and angle */
+  -webkit-background-clip: text; /* Ensures compatibility with WebKit browsers */
+  -moz-background-clip: text; /* Ensures compatibility with Firefox */
+  background-clip: text;
+  color: transparent;
+}
+
+.btn {
+  text-align: center;
+  font-size: 35px;
+  color: aliceblue;
+  height: 75px;
+  width: 200px;
+  background-color: #999999;
+}
